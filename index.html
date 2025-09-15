@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- PYSCRIPT -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <title>Using arithmetic operators</title>
+</head>
+<body>
+    <!-- <form>
+        <input type="text" id="username" placeholder="Enter your username"><br>
+        <input type="password" id="password" placeholder="Enter your password"><br>
+        <input type="button" value="Log in" py-click="getting_data">
+    </form> -->
+    <!-- <form class="container rounded shadow m-3 p-3">
+        <h2>USING ARITHMETIC OPERATORS</h2>
+        <input type="number" id="num1" placeholder="Enter the first number" class="rounded pe-2 my-2"><br>
+        <input type="number" id="num2" placeholder="Enter the second number" class="rounded pe-2 my-2"><br>
+        <input type="button" value="Add" py-click="adding_numbers" class="btn btn-info mt-2">
+    </form> -->
+    
+    <form class="container rounded shadow m-5 p-3">
+        <div class="title pt-1 bg-warning">
+            <h2 class="text-center">AREA OF A TRAPEZOID</h2>
+        </div>
+        <label>A - base</label>
+        <input type="number" id="base1" placeholder="Enter first base" class="form-control"><br>
+        <label>B - base</label>
+        <input type="number" id="base2" placeholder="Enter second base" class="form-control"><br>
+        <label>H - height</label>
+        <input type="number" id="height" placeholder="Enter height" class="form-control"><br>
+        <p id="output"></p>
+        <input type="button" value="Add" py-click="trapezoid_solving" class="btn btn-info form-control mt-2">
+    </form>
+    <div id="output"></div>
+    <py-script src="main.py"></py-script>
+</body>
+</html>
